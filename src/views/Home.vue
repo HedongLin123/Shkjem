@@ -3,15 +3,15 @@
     <swiper id="swiperBox" v-bind:options="swiperOption" ref="mySwiper">
       <swiper-slide class="swiper-slide slide-one">
         <div class="page">
-          <h3>科建股份</h3>
-          <p>KeJian Stock</p>
+          <h3>IT动力网</h3>
+          <p>IT动力是一名码农，分享技术和分享整合的工具</p>
         </div>
-        <p class="slogan">立人立己 达人达己</p>
+        <p class="slogan">IT工具&&个人博客</p>
       </swiper-slide>
       <swiper-slide class="swiper-slide slide-two">
         <div class="page">
-          <h3>经典案例</h3>
-          <p>Suecessful Cass</p>
+          <h3>最受欢迎工具</h3>
+          <p>Most Popular Tools</p>
         </div>
         <ul class="case-item">
           <li
@@ -36,8 +36,8 @@
       </swiper-slide>
       <swiper-slide class="swiper-slide slide-three">
         <div class="page">
-          <h3>最新资讯</h3>
-          <p>Latest News</p>
+          <h3>最新优质博客</h3>
+          <p>Latest high-quality blogs</p>
         </div>
         <div class="news-content">
           <div class="news-content-item" v-for="(news,i) in newsList" :key="i">

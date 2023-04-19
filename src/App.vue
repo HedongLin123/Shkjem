@@ -13,11 +13,11 @@
           :router="router"
         >
           <el-menu-item index="/">首页</el-menu-item>
-          <el-menu-item index="/news">新闻资讯</el-menu-item>
-          <el-menu-item index="/product">产品中心</el-menu-item>
-          <el-menu-item index="/case">经典案例</el-menu-item>
-          <el-menu-item index="/goin">走进科建</el-menu-item>
-          <el-menu-item index="/download">下载APP</el-menu-item>
+          <el-menu-item index="/itTools">IT工具下载</el-menu-item>
+          <el-menu-item>
+            <a target="_blank" style="text-decoration-line: none" href="https://www.toutiao.com/c/user/token/MS4wLjABAAAA8THRWn84yGf43AX_616HQiZqrWPT4WMFZ2db5URBjWM/?source=mine_profile" >个人博客</a>
+          </el-menu-item>
+          <el-menu-item index="/abouts">关于我们</el-menu-item>
         </el-menu>
       </el-header>
       <el-main>
@@ -27,35 +27,30 @@
         <div class="footer-content">
           <ul class="content-nav">
             <li>
-              <p>走进科建</p>
-              <span>发展历程</span>
-              <span>企业文化</span>
-              <span>资质荣誉</span>
-              <span>合作伙伴</span>
+              <p>首页</p>
+              <span>最新工具</span>
+              <span>最新博客</span>
             </li>
             <li>
-              <p>新闻资讯</p>
-              <span>公司新闻</span>
-              <span>行业动态</span>
+              <p>IT工具网</p>
+              <span>工具排行</span>
+              <span>工具下载</span>
             </li>
             <li>
-              <p>产品中心</p>
-              <span>介绍视频</span>
-              <span>管理模式</span>
-              <span>平台目标</span>
-              <span>功能模块</span>
+              <p>个人博客</p>
+              <span>自我介绍</span>
             </li>
             <li>
               <p>联系我们</p>
-              <span>邮箱：kejianlml@163.com</span>
+              <span>邮箱：itdl@163.com</span>
               <span>电话：021-55802368</span>
-              <span>地址：上海市杨浦区翔殷路128号12号楼101</span>
+              <span>地址：重庆市北碚区蔡家岗街道</span>
             </li>
           </ul>
           <img src="./assets/img/ercode.png" alt />
         </div>
         <div class="copyright">
-          <span>科建版权所有</span>
+          <span>IT动力版权所有</span>
         </div>
       </div>
     </el-container>
